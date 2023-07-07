@@ -16,4 +16,4 @@ def total_colors_v_1_0(img: Image) -> int:
 if __name__ == '__main__':
     image_name = "data/get_background_color.png"
     image = Image.open(image_name)
-    print(f"{total_colors_v_1_0(image)=} цветов")
+    print(f"{total_colors_v_1_0(image)=} colors")
